@@ -1,0 +1,20 @@
+win: npm install -g yarn
+mac: sudo npm install -g yarn
+
+npm -v
+yarn -v
+
+// install lại node_modules
+npm install
+// install package
+npm install react-redux @reduxjs/toolkit
+// remove package
+npm uninstall react-redux
+
+==============================
+// install lại node_modules
+yarn install
+// install package
+yarn add react-redux @reduxjs/toolkit
+// remove package
+yarn remove react-redux
